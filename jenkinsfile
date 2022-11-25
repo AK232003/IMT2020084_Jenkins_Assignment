@@ -27,6 +27,8 @@ pipeline {
         stage('Demo')
         {
             steps{
+                sh "chmod u+x Unit_test2.py"
+                sh "./Unit_test2.py"
             }
         }
     } 
