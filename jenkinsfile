@@ -24,5 +24,8 @@ pipeline {
                 sh "./Unit_test2.py"
             }
         }
+        stage('Demo')
+        {
+        }
     } 
 }
